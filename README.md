@@ -8,7 +8,7 @@ node.js
 ## Install 
 
 ```
-$ npm install -g https://github.com/waysaku/pagerank-evaluation.git
+$ npm install -g pagerank-evaluation
 ```
 
 
