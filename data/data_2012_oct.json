@@ -1,0 +1,47 @@
+{
+    "tanaka_taro":[
+        {"dest":"kataoka_michio", "weight":8},
+        {"dest":"takemoto_michiko", "weight":5},
+        {"dest":"hachiuma_yoshiko", "weight":3}
+    ],
+    "kataoka_michio":[
+        {"dest":"tanaka_taro", "weight":8},
+        {"dest":"hachiuma_yoshiko", "weight":5},
+        {"dest":"morishita_shinji", "weight":3}
+    ],
+    "hachiuma_yoshiko":[
+        {"dest":"morishita_shinji", "weight":8},
+        {"dest":"takemoto_michiko", "weight":5},
+        {"dest":"tanaka_taro", "weight":3}
+    ],
+    "nakai_miho":[
+        {"dest":"morishita_shinji", "weight":8},
+        {"dest":"hachiuma_yoshiko", "weight":5},
+        {"dest":"takemoto_michiko", "weight":3}
+    ],
+    "morishita_shinji":[
+        {"dest":"kataoka_michio", "weight":8},
+        {"dest":"tanaka_taro", "weight":5},
+        {"dest":"hachiuma_yoshiko", "weight":3}
+    ],
+    "akiyama_eiji":[
+        {"dest":"hachiuma_yoshiko", "weight":8},
+        {"dest":"fujimoto_kiyoshi", "weight":5},
+        {"dest":"takemoto_michiko", "weight":3}
+    ],
+    "takahashi_takamasa":[
+        {"dest":"nakai_miho", "weight":8},
+        {"dest":"tanaka_taro", "weight":5},
+        {"dest":"takemoto_michiko", "weight":3}
+    ],
+    "fujimoto_kiyoshi":[
+        {"dest":"kataoka_michio", "weight":8},
+        {"dest":"morishita_shinji", "weight":5},
+        {"dest":"takemoto_michiko", "weight":3}
+    ],
+    "takemoto_michiko":[
+        {"dest":"tanaka_taro", "weight":8},
+        {"dest":"morishita_shinji", "weight":5},
+        {"dest":"hachiuma_yoshiko", "weight":3}
+    ]
+}
