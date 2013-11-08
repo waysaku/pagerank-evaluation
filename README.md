@@ -5,6 +5,13 @@ This is Employee Evaluation Tool which is tried to compute by PageRank Algorithm
 ## Required
 node.js
 
+## Install 
+
+```
+$ npm install -g https://github.com/waysaku/pagerank-evaluation.git
+```
+
+
 ## Input data
     var vote_data = {
         "tanaka_taro":[
@@ -39,16 +46,31 @@ vote weight can be set with no limit. when compute vote weight, it will compute 
 
 ## execute
 
-edit  valiable named "data"  
-
-     #var data = data_2012_oct;
-     var data = vote_data;
-
 execute command line.  
 
-    $ node pagerank.js
-    tanaka_taro:10.560138137184241
-    morishita_shinji:1
-    kataoka_michio:1
-    takemoto_michiko:0.2608715356202827
-    nakai_miho:0.15000000000000002
+```
+$ pagerank-evaluation --src {data json file path}
+tanaka_taro:834.9413887051172
+morishita_shinji:834.9413887051167
+hachiuma_yoshiko:300.7939610013264
+kataoka_michio:58.57108548529948
+takemoto_michiko:18.700945754087122
+nakai_miho:0.2608715356202827
+fujimoto_kiyoshi:0.2042553209888944
+takahashi_takamasa:0.15000000000000002
+akiyama_eiji:0.15000000000000002
+```
+
+### command option
+
+```
+$ pagerank-evaluation --help
+
+  Usage: pagerank-evaluation [options]
+
+  Options:
+
+    -h, --help      output usage information
+    -V, --version   output the version number
+    -s --src <src>  Read data file path
+```
