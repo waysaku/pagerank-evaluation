@@ -1,0 +1,19 @@
+{
+    "A":[
+            {"dest":"D", "weight":1}
+            ],
+    "B":[
+            {"dest":"A", "weight":1},
+            {"dest":"D", "weight":1}
+            ],
+    "C":[
+            {"dest":"B", "weight":1}
+            ],
+    "D":[
+            {"dest":"C", "weight":1},
+            {"dest":"E", "weight":1}
+            ],
+    "E":[
+            {"dest":"B", "weight":1}
+            ]
+}

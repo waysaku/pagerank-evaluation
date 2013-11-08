@@ -45,7 +45,7 @@ var PageRank = function(matrix, loop) {
             var refs_pr = 0;
             for (var j = 0; j < cals.length; j++) {
                 if (cals[j] > 0) {
-                    refs_pr += pagerank[i] * cals[j];
+                    refs_pr += pagerank[j] * cals[j];
                 }
             }
             new_pagerank[i] = (1 - d) + (d * refs_pr);

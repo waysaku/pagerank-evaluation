@@ -1,6 +1,6 @@
 {
   "name": "pagerank-evaluation",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Watanabe PageRank Evaluation",
   "main": "pagerank.js",
   "scripts": {
