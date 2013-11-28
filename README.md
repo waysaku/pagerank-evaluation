@@ -13,11 +13,11 @@ $ npm install -g pagerank-evaluation
 
 
 ## Input data
-    var vote_data = {
+    {
         "tanaka_taro":[
     			{"dest":"kataoka_michio", "weight":8},
     			{"dest":"takemoto_michiko", "weight":5},
-    			{"dest":"hachiuma_yoshiko", "weight":3},
+    			{"dest":"hachiuma_yoshiko", "weight":3}
     		    ],
         "kataoka_michio":[
     			{"dest":"tanaka_taro", "weight":8},
@@ -50,15 +50,11 @@ execute command line.
 
 ```
 $ pagerank-evaluation --src {data json file path}
-tanaka_taro:834.9413887051172
-morishita_shinji:834.9413887051167
-hachiuma_yoshiko:300.7939610013264
-kataoka_michio:58.57108548529948
-takemoto_michiko:18.700945754087122
-nakai_miho:0.2608715356202827
-fujimoto_kiyoshi:0.2042553209888944
-takahashi_takamasa:0.15000000000000002
-akiyama_eiji:0.15000000000000002
+tanaka_taro:0.6633301730387455
+kataoka_michio:0.6038515957681376
+morishita_shinji:0.4033105890758094
+takemoto_michiko:0.3503446853603615
+nakai_miho:0.15000000000000002
 ```
 
 ### command option
